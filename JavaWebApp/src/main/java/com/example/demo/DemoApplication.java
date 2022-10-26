@@ -1,18 +1,13 @@
 package com.example.demo;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 @SpringBootApplication
 public class DemoApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+		
+        String name = "vamsi";
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-
-		String name = "tayo1r";
-
-		System.out.printIn(name);
-
-	}
-
+        System.out.println(name);
+    }
 }
