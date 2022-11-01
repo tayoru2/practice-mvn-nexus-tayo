@@ -7,13 +7,13 @@
 ## Install SonarQube
 - https://github.com/awanmbandi/eagles-batch-devops-projects/blob/maven-nexus-sonarqube-jenkins-install/sonarqube-install.sh
 
-## Configure Nexus Repository 
+## Configure Nexus Repository
 
 Series of tutorial code snippets for use
 #Maven publish tutorial steps
 Publishing artifact to Nexus snapshot and release repo using maven.
 
-1. Create a snapshot repo using nexus, or use default coming in out of the box. DEFAULT 
+1. Create a snapshot repo using nexus, or use default coming in out of the box. DEFAULT
 2. Create a release repo using nexus, or use default coming out of the box. DEFAULT
 3. Create a group repo having both release, snapshot and other third party repos. or use default coming out of the box.
 4. Download spring initializer project
@@ -29,7 +29,7 @@ Publishing artifact to Nexus snapshot and release repo using maven.
    - `mvn package`    (take the compiled code and package it in its distributable format, such as a WAR/JAR/EAR.)
    - `mvn verify`     (run any checks to verify the package is valid and meets quality criteria.)
    - `mvn install`    (install the package into the local repository, for use as a dependency in other projects locally.)
-   - `mvn deploy`     (done in an integration or release environment, copies the final package to the remote/SNAPSHOT repository 
+   - `mvn deploy`     (done in an integration or release environment, copies the final package to the remote/SNAPSHOT repository
                       for sharing with other developers and projects.)
 
 11. Change the version from 1.0-Snapshot to 1.0
